@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --orange:#ffa500;
+  --orange:#db1bbb5e;
 }
 
 *{
@@ -16,7 +16,7 @@
 
 *::selection{
   background:var(--orange);
-  color:#fff;
+  color:rgba(158, 165, 62, 0.808);
 }
 
 html{
@@ -37,7 +37,7 @@ section{
 
 .heading span{
   font-size: 3.5rem;
-  background:rgba(255, 165, 0,.2);
+  background:rgba(19, 18, 18, 0.034);
   color:var(--orange);
   border-radius: .5rem;
   padding:.2rem 1rem;
@@ -310,7 +310,7 @@ header .search-bar-container label:hover{
 .book .row form{
   flex:1 1 40rem;
   padding:2rem;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(214, 14, 14, 0.1);
   border-radius: .5rem;
 }
 
@@ -321,7 +321,7 @@ header .search-bar-container label:hover{
 .book .row form .inputBox input{
   width:100%;
   padding:1rem;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.1rem solid rgba(214, 14, 14, 0.1);
   font-size: 1.7rem;
   color:#333;
   text-transform: none;
@@ -343,7 +343,7 @@ header .search-bar-container label:hover{
   flex:1 1 30rem;
   border-radius: .5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(214, 14, 14, 0.1);
 }
 
 .packages .box-container .box img{
@@ -605,19 +605,6 @@ header .search-bar-container label:hover{
 .footer .credit span{
   color:var(--orange);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --orange:#db1bbb5e;
+  --pink:#f30876e3;
 }
 
 *{
@@ -15,7 +15,7 @@
 }
 
 *::selection{
-  background:var(--orange);
+  background:var(--pink);
   color:rgba(158, 165, 62, 0.808);
 }
 
@@ -38,7 +38,7 @@ section{
 .heading span{
   font-size: 3.5rem;
   background:rgba(19, 18, 18, 0.034);
-  color:var(--orange);
+  color:var(--pink);
   border-radius: .5rem;
   padding:.2rem 1rem;
 }
@@ -50,23 +50,23 @@ section{
 .btn{
   display: inline-block;
   margin-top: 1rem;
-  background:var(--orange);
+  background:var(--pink);
   color:#fff;
   padding:.8rem 3rem;
-  border:.2rem solid var(--orange);
+  border:.2rem solid var(--pink);
   cursor: pointer;
   font-size: 1.7rem;
 }
 
 .btn:hover{
-  background:rgba(255, 165, 0,.2);
-  color:var(--orange);
+  background:rgb(255, 166, 0);
+  color:var(--pink);
 }
 
 header{
   position: fixed;
   top:0; left: 0; right:0;
-  background:#333;
+  background:rgb(7, 4, 8);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ header .logo{
 }
 
 header .logo span{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 header .navbar a{
@@ -92,7 +92,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 header .icons i{
@@ -103,14 +103,14 @@ header .icons i{
 }
 
 header .icons i:hover{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 header .search-bar-container{
   position: absolute;
   top:100%; left: 0; right:0;
   padding:1.5rem 2rem;
-  background:#333;
+  background:rgb(206, 12, 255);
   border-top: .1rem solid rgba(255,255,255,.2);
   display: flex;
   align-items: center;
@@ -139,7 +139,7 @@ header .search-bar-container label{
 }
 
 header .search-bar-container label:hover{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 .login-form-container{
@@ -185,7 +185,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form .box:focus{
-  border-color: var(--orange);;
+  border-color: var(--pink);;
 }
 
 .login-form-container form #remember{
@@ -208,7 +208,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form p a{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 .login-form-container form p a:hover{
@@ -289,7 +289,7 @@ header .search-bar-container label:hover{
 }
 
 .home .controls .vid-btn.active{
-  background:var(--orange);
+  background:var(--pink);
 }
 
 .book .row{
@@ -362,7 +362,7 @@ header .search-bar-container label:hover{
 }
 
 .packages .box-container .box .content h3 i{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 .packages .box-container .box .content p{
@@ -373,7 +373,7 @@ header .search-bar-container label:hover{
 
 .packages .box-container .box .content .stars i{
   font-size:1.7rem;
-  color:var(--orange);
+  color:var(--pink);
 }
 
 .packages .box-container .box .content .price{
@@ -404,7 +404,7 @@ header .search-bar-container label:hover{
 .services .box-container .box i{
   padding:1rem;
   font-size: 5rem;
-  color:var(--orange);
+  color:var(--pink);
 }
 
 .services .box-container .box h3{
@@ -461,7 +461,7 @@ header .search-bar-container label:hover{
 
 .gallery .box-container .box .content h3{
   font-size: 2.5rem;
-  color:var(--orange);
+  color:var(--pink);
 }
 
 .gallery .box-container .box .content p{
@@ -501,7 +501,7 @@ header .search-bar-container label:hover{
 }
 
 .review .box .stars i{
-  color:var(--orange);
+  color:var(--pink);
   font-size: 1.7rem;
 }
 
@@ -588,7 +588,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .box-container .box a:hover{
-  color:var(--orange);
+  color:var(--pink);
   text-decoration: underline;
 }
 
@@ -603,7 +603,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .credit span{
-  color:var(--orange);
+  color:var(--pink);
 }
 
 
